@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924783499799",
+    "project_id": "aplikasi-pendataan-mahasiswa",
+    "storage_bucket": "aplikasi-pendataan-mahasiswa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924783499799:android:12468597ec3e74a241da52",
+        "android_client_info": {
+          "package_name": "com.refanzzzz.aplikasipendataanmahasiswa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924783499799-i2g08tgslpqougrcdkao501g30oi38ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_HF8QwI6Vc6QJN527MLiHof4wAeaNurM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924783499799-i2g08tgslpqougrcdkao501g30oi38ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:elevation="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgMahasiswa"
+            android:layout_width="70dp"
+            android:src="@drawable/ic_face"
+            android:layout_marginRight="10dp"
+            android:layout_height="70dp"/>
+
+        <TextView
+            android:id="@+id/tvNamaMahasiswa"
+            android:layout_toRightOf="@id/imgMahasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textSize="15sp"
+            android:text="Nama Mahasiswa"/>
+
+        <TextView
+            android:id="@+id/tvNIMMahasiswa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_below="@id/tvNamaMahasiswa"
+            android:text="21120120120022"
+            android:layout_toRightOf="@id/imgMahasiswa"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
